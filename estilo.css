@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(181, 126, 234);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+float: left; 
+height: 230px;
+margin-right: 200px;
+margin-left: 50px;
+}
+h1, p{
+    margin: 0;
+}
+.nombre{
+    color:rgb(80, 23, 92);
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 180%;
+}
+.arribaizq{
+    color: rgb(212, 38, 96);
+    font-size: 110%;
+
+}
+.arribader{
+    color:rgb(212, 38, 96);
+    margin-left: 580px;
+    }
+.contact {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(212, 38, 96);
+    
+}
+
+#desc {
+    color:rgb(80, 23, 92);
+    font-size: 120%;
+    margin-left: 600px;
+    margin-bottom: 7px;
+}
+#desc2 {
+    color:rgb(80, 23, 92);
+    font-size: 120%;
+    margin-left: 555px;
+}
+
+#h1form{
+    color: rgb(80, 23, 92);
+    margin-left: 50px;
+
+
+}
+
+#button{
+    color: rgb(212, 38, 96);
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
