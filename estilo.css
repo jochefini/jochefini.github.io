@@ -1,61 +1,122 @@
-*{
+
+/* Estilos generales para pantallas grandes */
+* {
     background-color: rgb(181, 126, 234);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-img{
-float: left; 
-height: 230px;
-margin-right: 200px;
-margin-left: 50px;
+    
 }
 h1, p{
     margin: 0;
+    
 }
 .nombre{
     color:rgb(80, 23, 92);
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 0.25em;
+    margin-top: 2.13em;
     font-size: 180%;
+    text-align: center;
+}
+
+img {
+    float: none;
+    display: block;
+    height:auto;
+    margin: 0 auto;
+    width: 20%;    
 }
 .arribaizq{
     color: rgb(212, 38, 96);
     font-size: 110%;
+    margin-right: 36.3em;
+    margin-top: 0em;
 
 }
 .arribader{
     color:rgb(212, 38, 96);
-    margin-left: 580px;
+    font-size: 110%;
+    margin-right: 36.3em;
+    margin-top: 0em;
     }
+
 .contact {
-    margin-left: 20px;
-    margin-top: 20px;
-    color: rgb(212, 38, 96);
-    
-}
+        margin-left: 1.25em;
+        margin-top: 1.25em;
+        color: rgb(212, 38, 96);
+        
+    }
 
 #desc {
     color:rgb(80, 23, 92);
     font-size: 120%;
-    margin-left: 600px;
-    margin-bottom: 7px;
+    text-align: center;
 }
 #desc2 {
     color:rgb(80, 23, 92);
     font-size: 120%;
-    margin-left: 555px;
+    text-align: center;
 }
 
 #h1form{
     color: rgb(80, 23, 92);
-    margin-left: 50px;
+    margin-left: 3.13em;
 
 
 }
-
 #button{
     color: rgb(212, 38, 96);
-    margin-left: 240px;
-    margin-top: 30px;
+    margin-left: 15em;
+    margin-top: 1.9em;
 }
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .arribaizq, .arribader {
+        font-size: 90%;
+        margin-right: 0;
+        text-align: center;
+        color:rgb(212, 38, 96);
+    }
+
+    .arribader {
+        margin-top: 1em;
+    }
+
+    img {
+        float: none;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 50%;  
+    }
+
+    .nombre {
+        font-size: 150%;
+        margin-top: 2em;
+        color:rgb(80, 23, 92);
+    }
+
+    #desc, #desc2 {
+        font-size: 100%;
+        color: rgb(80, 23, 92);
+    }
+
+    #h1form {
+        font-size: 120%;
+        margin-left: 0;
+        text-align: center;
+        color: rgb(80, 23, 92);
+    }
+
+    #button {
+        display: block;
+        margin: 1em auto;
+        color: rgb(212, 38, 96);
+    }
+
+    .contact {
+        margin-left: 0;
+        padding: 1em;
+        color:rgb(80, 23, 92);
+    }
+}
+
 
