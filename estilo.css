@@ -1,19 +1,9 @@
-*{
+
+/* Estilos generales para pantallas grandes */
+* {
     background-color: rgb(181, 126, 234);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
-}
-body{
-    display: flex;
-}
-
-img{
-float: left; 
-display: block;
-height: 14.37em;
-margin-right: 12.5em;
-margin-left: 3.13em;
-
+    
 }
 h1, p{
     margin: 0;
@@ -21,10 +11,18 @@ h1, p{
 }
 .nombre{
     color:rgb(80, 23, 92);
-    margin-bottom: 1.25em;
-    margin-top: 3.13em;
+    margin-bottom: 0.25em;
+    margin-top: 2.13em;
     font-size: 180%;
     text-align: center;
+}
+
+img {
+    float: none;
+    display: block;
+    height:auto;
+    margin: 0 auto;
+    width: 20%;    
 }
 .arribaizq{
     color: rgb(212, 38, 96);
@@ -64,11 +62,61 @@ h1, p{
 
 
 }
-
 #button{
     color: rgb(212, 38, 96);
     margin-left: 15em;
     margin-top: 1.9em;
+}
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .arribaizq, .arribader {
+        font-size: 90%;
+        margin-right: 0;
+        text-align: center;
+        color:rgb(212, 38, 96);
+    }
+
+    .arribader {
+        margin-top: 1em;
+    }
+
+    img {
+        float: none;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 50%;  
+    }
+
+    .nombre {
+        font-size: 150%;
+        margin-top: 2em;
+        color:rgb(80, 23, 92);
+    }
+
+    #desc, #desc2 {
+        font-size: 100%;
+        color: rgb(80, 23, 92);
+    }
+
+    #h1form {
+        font-size: 120%;
+        margin-left: 0;
+        text-align: center;
+        color: rgb(80, 23, 92);
+    }
+
+    #button {
+        display: block;
+        margin: 1em auto;
+        color: rgb(212, 38, 96);
+    }
+
+    .contact {
+        margin-left: 0;
+        padding: 1em;
+        color:rgb(80, 23, 92);
+    }
 }
 
 
