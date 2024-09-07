@@ -1,61 +1,74 @@
 *{
     background-color: rgb(181, 126, 234);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+body{
+    display: flex;
 }
 
 img{
 float: left; 
-height: 230px;
-margin-right: 200px;
-margin-left: 50px;
+display: block;
+height: 14.37em;
+margin-right: 12.5em;
+margin-left: 3.13em;
+
 }
 h1, p{
     margin: 0;
+    
 }
 .nombre{
     color:rgb(80, 23, 92);
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 1.25em;
+    margin-top: 3.13em;
     font-size: 180%;
+    text-align: center;
 }
 .arribaizq{
     color: rgb(212, 38, 96);
     font-size: 110%;
+    margin-right: 36.3em;
+    margin-top: 0em;
 
 }
 .arribader{
     color:rgb(212, 38, 96);
-    margin-left: 580px;
+    font-size: 110%;
+    margin-right: 36.3em;
+    margin-top: 0em;
     }
+
 .contact {
-    margin-left: 20px;
-    margin-top: 20px;
-    color: rgb(212, 38, 96);
-    
-}
+        margin-left: 1.25em;
+        margin-top: 1.25em;
+        color: rgb(212, 38, 96);
+        
+    }
 
 #desc {
     color:rgb(80, 23, 92);
     font-size: 120%;
-    margin-left: 600px;
-    margin-bottom: 7px;
+    text-align: center;
 }
 #desc2 {
     color:rgb(80, 23, 92);
     font-size: 120%;
-    margin-left: 555px;
+    text-align: center;
 }
 
 #h1form{
     color: rgb(80, 23, 92);
-    margin-left: 50px;
+    margin-left: 3.13em;
 
 
 }
 
 #button{
     color: rgb(212, 38, 96);
-    margin-left: 240px;
-    margin-top: 30px;
+    margin-left: 15em;
+    margin-top: 1.9em;
 }
+
 
